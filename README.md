@@ -64,7 +64,7 @@ app = Flask(__name__)
 def rota_principal():
    return "Rota Principal"
 4 - Executar a aplicação
-if "__name__" == __main__:
+if __name__ == "__main__":
    app.run()
 ```
 - Executar.
